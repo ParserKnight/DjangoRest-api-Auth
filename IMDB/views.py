@@ -43,7 +43,7 @@ def create_auth_token(sender, instance=None, created=False, **kwargs):
 	Creación de token para la API
 	"""
 	
-    if created:
-        Token.objects.create(user=instance)
+	if created:
+		Token.objects.create(user=instance)
 
 
