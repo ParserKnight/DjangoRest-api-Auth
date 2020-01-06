@@ -1,45 +1,34 @@
-# Project Title
+# DjangoRest-api-auth
 
-One Paragraph of project description goes here
+This project is about an API REST with auth token log system. It was made with DRM (Django Rest Framework) and it present itself as a basic scheme for developing an API in DRF. With this API you can create and get Movies with certain attributes, after you log in with credentials.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+The process is very simple, if you wish you can create a virtual environment with the dependencies in requirements.txt file.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Run your virtual environment and then type
 
 ```
-Give examples
+pip3 install -r requirements.txt
+
 ```
+and thats it.
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+Just get into the folder where the manage.py is and type:
 
 ```
-Give the example
+python3 manage.py runserver
 ```
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+And thats it, you now have in your port 8080 the API running.
 
 ## Built With
 
-* [DRF](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-
+* [DRF](https://www.django-rest-framework.org/)
 
 ## Authors
 
@@ -49,9 +38,5 @@ Add additional notes about how to deploy this on a live system
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
 
