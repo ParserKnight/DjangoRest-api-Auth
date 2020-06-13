@@ -24,7 +24,7 @@ Just get into the folder where the manage.py is and type:
 python3 manage.py runserver
 ```
 
-And thats it, you now have in your port 8080 the API running.
+And thats it, you now have in your port 8000 the API running.
 
 ## Built With
 
